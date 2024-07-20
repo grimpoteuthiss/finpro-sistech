@@ -11,7 +11,9 @@ module.exports = {
         crimson: "#ef2b47",
         gray: {
           100: "#1e1e1e",
+          300: "#98A2B3",
           500: "#6d737a",
+          800: "#EAECF0",
         },
         black: "#000",
         lightsteelblue: "#b8c2d8",
@@ -31,6 +33,7 @@ module.exports = {
     "fontSize": {
       "5xl":"4rem",
       "4xl": "2.25rem",
+      "3xl": "2rem",
       "2xl": "1.5rem",
       "xl": "1.25rem",
 
