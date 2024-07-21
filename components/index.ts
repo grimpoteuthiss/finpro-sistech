@@ -1,3 +1,4 @@
-import { Hero } from "./Hero";
-import { Footer } from "./Footer"
-import { FeedbackCard } from "./Feedback"
+export * from "./Hero";
+export * from "./Footer"
+export * from "./Feedback"
+export * from "./NavigationButton";

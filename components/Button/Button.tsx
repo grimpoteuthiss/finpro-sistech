@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Image from "next/image"
 
 type ButtonProps = {
-    children: React.ReactNode;
+    children?: React.ReactNode;
     className?: string;
     href?: string;
     imageUrl?: string;
@@ -29,7 +29,7 @@ function Button ({
 
     return (
         <button onClick={handleClick} className={`${className || ''}`}>
-            {children}
+            { children }
             { imageUrl && <Image
                 src={imageUrl}
                 alt="button-arrow"

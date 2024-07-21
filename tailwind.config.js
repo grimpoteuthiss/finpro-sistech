@@ -12,6 +12,7 @@ module.exports = {
         gray: {
           100: "#1e1e1e",
           300: "#98A2B3",
+          400: "#6D737A3D",
           500: "#6d737a",
           800: "#EAECF0",
         },
@@ -20,6 +21,7 @@ module.exports = {
         primary: "#3a98b9",
         secondary: "#eee",
         gainsboro: "#d9d9d9",
+        tertiary: "#20B486",
       },
       spacing: {},
       fontFamily: {

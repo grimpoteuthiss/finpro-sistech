@@ -15,7 +15,7 @@ function FeedbackCard({
     desc
     }: FeedbackCardProps) {
         return (
-            <article className="rounded-3xl p-7 gap-3 flex flex-col shadow-xl">
+            <article className="rounded-3xl p-7 gap-3 flex flex-col shadow-[0px_0px_50px_-10px_] shadow-gray-400">
                 <div className="flex justify-between items-start">
                     <div className="flex flex-row gap-5 items-center">
                         <ProfileAvatar
