@@ -21,7 +21,7 @@ function SubCourseCard({
 }: SubCourseCardProps) {
     const router = useRouter();
     return(
-        <Link href={`/vid/${id}`}>
+        <Link href={`/course/${id}`}>
         <article onClick={()=>{}} className={`cursor-pointer rounded-3xl w-[254px] flex flex-row justify-between px-4 py-3.5
             ${variant === "active"
                 ? "bg-gray-230 text-white"
