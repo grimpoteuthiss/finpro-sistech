@@ -1,5 +1,6 @@
 // components/Navbar.tsx
 import React from "react";
+import { Logo } from "../Logo";
 
 export const Navbar: React.FC = () => {
   return (
@@ -8,36 +9,34 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo Section */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-gray-900 font-bold text-2xl">
-              LearningRoom
-            </a>
+            <Logo imageUrl={"/images/logo.svg"} height={50} width={192}/>
           </div>
 
           {/* Navigation Links */}
           <div className="flex space-x-6">
             <a
-              href="/"
-              className="text-gray-900 font-semibold hover:text-gray-700 py-2 px-4"
+              href="#home"
+              className="text-gray-230 font-semibold hover:text-primary py-2 px-4 transition-all duration-300 ease-in-out"
             >
               Home
             </a>
             <a
-              href="/feedback"
-              className="text-gray-900 font-semibold hover:text-gray-700 py-2 px-4"
+              href="#offers"
+              className="text-gray-230 font-semibold hover:text-primary py-2 px-4 transition-all duration-300 ease-in-out"
             >
-              Feedback
+              Offers Today
             </a>
             <a
-              href="/courses"
-              className="text-gray-900 font-semibold hover:text-gray-700 py-2 px-4"
+              href="#courses"
+              className="text-gray-230 font-semibold hover:text-primary py-2 px-4 transition-all duration-300 ease-in-out"
             >
               Courses
             </a>
             <a
-              href="/offers-today"
-              className="text-gray-900 font-semibold hover:text-gray-700 py-2 px-4"
+              href="#feedback"
+              className="text-gray-230 font-semibold hover:text-primary py-2 px-4 transition-all duration-300 ease-in-out"
             >
-              Offers Today
+              Feedback
             </a>
           </div>
 
@@ -46,8 +45,9 @@ export const Navbar: React.FC = () => {
             <input
               type="text"
               placeholder="Want to learn?"
-              className="border border-gray-300 rounded-lg py-2 px-4 text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary"
+              className="border border-gray-300 rounded-lg py-2 px-4 text-gray-230 focus:outline-none focus:ring-2 focus:ring-primary"
             />
+            
           </div>
         </div>
       </div>

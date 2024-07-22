@@ -8,6 +8,7 @@ type ButtonProps = {
     imageUrl?: string;
     width?: number;
     height?: number;
+    onClick?: () => void
 };
 
 function Button ({
@@ -17,6 +18,7 @@ function Button ({
     imageUrl,
     width = 42,
     height = 42,
+    onClick,
 }: ButtonProps) {
     const router = useRouter();
 
@@ -28,7 +30,7 @@ function Button ({
     };
 
     return (
-        <button onClick={handleClick} className={`${className || ''}`}>
+        <button onClick={onClick ? onClick : handleClick} className={`${className || ''}`}>
             { children }
             { imageUrl && <Image
                 src={imageUrl}

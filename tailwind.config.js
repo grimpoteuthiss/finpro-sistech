@@ -11,10 +11,13 @@ module.exports = {
         crimson: "#ef2b47",
         gray: {
           100: "#1e1e1e",
+          130: "#F7F8FD",
+          230: "#34374a", //dark
           300: "#98A2B3",
           400: "#6D737A3D",
           500: "#6d737a",
           800: "#EAECF0",
+          900: "#e5e9f2", //light
         },
         black: "#000",
         lightsteelblue: "#b8c2d8",

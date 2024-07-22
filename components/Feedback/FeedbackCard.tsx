@@ -8,6 +8,7 @@ type FeedbackCardProps = {
     job: string;
     desc: string;
 }
+
 function FeedbackCard({
     imageUrl,
     name,

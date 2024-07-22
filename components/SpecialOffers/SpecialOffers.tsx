@@ -52,7 +52,7 @@ const DummyCountdown: React.FC = () => {
 
 const SpecialOffers: React.FC = () => {
   return (
-    <div className="p-6 bg-primary rounded-lg shadow-md mb-16">
+    <div className="p-6 bg-primary rounded-lg shadow-md mb-16" id="offers">
       <div className="flex items-center mb-4">
         <h2 className="text-xl font-bold flex-1">Special Offers</h2>
         <DummyCountdown />

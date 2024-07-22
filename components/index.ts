@@ -6,3 +6,4 @@ export * from "./Navbar";
 export * from "./SpecialOffers";
 export * from "./CoursesList";
 export * from "./QuizPage";
+export * from "./DetailCourseLayout"

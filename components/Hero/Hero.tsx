@@ -6,7 +6,7 @@ type HeroProps = {
 
 function Hero(){
     return(
-        <header className="py-10">
+        <header className="pb-40 pt-32" id="home">
             <div className="flex flex-col xl:gap-8 gap-5 page-center
                 text-center items-center lg:items-start lg:text-start">
                 <div className="flex flex-col">
@@ -29,7 +29,7 @@ function Hero(){
                         width={20}
                         height={20}
                         className="bg-primary rounded-full bg-primary flex flex-row items-center justify-center py-4 px-9 gap-[10px] text-center text-white
-                        xl:text-xl lg:text-lg text-sm
+                        xl:text-xl lg:text-lg text-sm hover:shadow-[inset_0_0_0_2px] hover:shadow-primary hover:bg-white hover:text-primary transition-all duration-300 ease-in-out hover:font-bold
                         "
                     >
                         Get Started

@@ -28,7 +28,7 @@ const QuizPage: FC = () => {
         <h1 className="text-2xl font-bold mb-4">{question}</h1>
         <form>
           {options.map((option) => (
-            <div key={option.value} className="mb-2">
+            <div key={option.value} className="lg:mb-2">
               <input
                 type="radio"
                 id={option.value}

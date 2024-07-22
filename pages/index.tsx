@@ -15,21 +15,15 @@ export default function Pages() {
   return (
     <>
       <Navbar />
-      <div className="pt-16">
-        {/* Add padding to avoid content being hidden behind navbar */}
+      {/* <div className="pt-16"> */}
         <HeroImage />
         <Hero />
-        <NavigationButton
-          variant={"next"}
-          imageUrl="/images/material-symbols_arrow-forward-rounded.svg"
-        />
-        <FeedbackCardListContainer />
-        <Feedback />
-        <CoursesList />
         <SpecialOffers />
-        <QuizPage />
+        <CoursesList />
+        <Feedback />
+        {/* <QuizPage /> */}
         <Footer />
-      </div>
+      {/* </div> */}
     </>
   );
 }

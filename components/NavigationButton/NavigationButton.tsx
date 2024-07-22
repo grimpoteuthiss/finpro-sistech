@@ -21,7 +21,7 @@ function NavigationButton({
   return (
     <button
       onClick={onClick}
-      className={`shadow-[0px_0px_28px_-14px] shadow-tertiary p-2.5 rounded-xl ${
+      className={`p-2.5 rounded-xl ${
         className || ""
       }
             ${variant === "prev" ? "bg-white" : "bg-primary"}
@@ -55,12 +55,14 @@ function ButtonGroup({
         swiper.slidePrev();
       }}
       variant={"prev"}
+      className="hover:shadow-[inset_0_0_0_2px] hover:shadow-primary shadow-[0px_0px_28px_-14px] shadow-tertiary transition-all duration-300 ease-in-out"
     />
     <NavigationButton
       onClick={() => {
         swiper.slideNext();
       }}
       variant={"next"}
+      className="hover:bg-gray-230 shadow-[0px_0px_28px_-14px] shadow-tertiary transition-all duration-300 ease-in-out"
     />
   </div>)
 }

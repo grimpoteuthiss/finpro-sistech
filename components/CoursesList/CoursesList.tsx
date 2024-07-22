@@ -1,4 +1,5 @@
 // components/SpecialOffers/CoursesList.tsx
+import { useRouter } from "next/router";
 import React from "react";
 
 type Course = {
@@ -42,9 +43,9 @@ const courses: Course[] = [
 
 const CoursesList: React.FC = () => {
   return (
-    <div className="p-6 bg-primary rounded-lg shadow-md mb-16">
+    <div className="p-6 bg-primary rounded-lg shadow-md mb-16" id="courses">
       <div className="flex items-center mb-4">
-        <h2 className="text-xl font-bold flex-1">Let's Start Learning!</h2>
+        <h2 className="text-xl font-bold flex-1">Lets Start Learning!</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {courses.map((course) => (

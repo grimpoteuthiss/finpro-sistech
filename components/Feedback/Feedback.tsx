@@ -2,7 +2,7 @@ import { FeedbackCardListContainer } from "./FeedbackCardListContainer";
 
 function Feedback() {
     return (
-        <section className="py-10">
+        <section className="py-10" id="feedback">
             <div className="flex flex-col page-center">
                 <div className="flex flex-col xl:gap-4 gap-2 px-8">
                     <h2 className="font-semibold">
