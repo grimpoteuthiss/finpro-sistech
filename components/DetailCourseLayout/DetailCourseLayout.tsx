@@ -29,7 +29,7 @@ function DetailCourseLayout({
     
       const handleCourseSelect = (id:any) => {
         setActiveCourseId(id);
-        router.push(`/vid/${id}`, undefined, { shallow: true });
+        router.push(`/course/${id}`, undefined, { shallow: true });
       };
     
 

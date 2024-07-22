@@ -9,13 +9,11 @@ import { FeedbackCardListContainer } from "../components/Feedback/FeedbackCardLi
 import { NavigationButton } from "../components/NavigationButton/NavigationButton";
 import { SpecialOffers } from "../components/SpecialOffers/SpecialOffers";
 import { CoursesList } from "../components/CoursesList/CoursesList";
-import { QuizPage } from "../components/QuizPage/QuizPage";
 
 export default function Pages() {
   return (
     <>
       <Navbar />
-      {/* <div className="pt-16"> */}
         <HeroImage />
         <Hero />
         <SpecialOffers />
@@ -23,7 +21,6 @@ export default function Pages() {
         <Feedback />
         {/* <QuizPage /> */}
         <Footer />
-      {/* </div> */}
     </>
   );
 }

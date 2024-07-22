@@ -15,7 +15,7 @@ function MainContent({
   toggleCourse
 }: MainContentProps) {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="px-10 flex flex-col gap-8">
       <div className="relative w-full player-wrapper ">
         <ReactPlayer
           controls={true}
@@ -30,7 +30,7 @@ function MainContent({
           imageUrl="/images/volume.svg"
           width={24}
           height={24}
-          className="bg-[#34374a] rounded-full bg-primary flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white
+          className="bg-[#34374a] rounded-full  flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white
                         xl:text-xl lg:text-lg text-sm
                         "
         >
@@ -40,7 +40,7 @@ function MainContent({
         </Button>
         <Button
         onClick={()=>toggleCourse(course.id)}
-          className="bg-[#34374a] rounded-full bg-primary flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white
+          className="bg-[#34374a] rounded-full  flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white
                         xl:text-xl lg:text-lg text-sm
                         "
         >
@@ -49,9 +49,10 @@ function MainContent({
           </h4>
         </Button>
         <Button
-          className="bg-[#34374a] rounded-full bg-primary flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white
+          className="bg-[#34374a] rounded-full  flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white
                         xl:text-xl lg:text-lg text-sm
                         "
+          href="/quiz"
         >
           <h4>
             Do Quiz
