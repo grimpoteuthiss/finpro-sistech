@@ -10,12 +10,10 @@ import { NavigationButton } from "../components/NavigationButton/NavigationButto
 export default function Pages() {
     return (
         <>
-            {/* <HeroImage/> */}
-            {/* <Hero/> */}
-            {/* <NavigationButton variant={"next"} imageUrl="/images/material-symbols_arrow-forward-rounded.svg"/> */}
-            {/* <FeedbackCardListContainer /> */}
+            <HeroImage/>
+            <Hero/>
             <Feedback />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

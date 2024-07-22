@@ -39,11 +39,11 @@ function Footer() {
             <div className="flex flex-col gap-16 max-w-7xl m-auto relative w-11/12">
 
                     <div className="w-full flex flex-row gap-36 items-center text-gray-800">
-                        <div className="max-w-80 flex flex-col gap-6">
+                        <div className="lg:max-w-80 flex flex-col gap-6 w-full">
                             <h3 className="text-3xl leading-6">Example</h3>
                             <p>pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis</p>
                         </div>
-                        <div className="flex gap-12 w-full ">
+                        <div className="flex gap-12 lg:w-full lg:visible collapse w-0">
                             <div className="flex flex-col gap-3 grow">
                             {footerItems.slice(0,4).map((item) => (
                                 <Link href={item.href} key={item.href}>

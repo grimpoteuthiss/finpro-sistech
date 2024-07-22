@@ -20,23 +20,23 @@ body,p {
 }
 
 h1 {
-    @apply text-5xl font-extrabold inline-block
+    @apply xl:text-6xl lg:text-5xl text-3xl font-extrabold inline-block 
 }
 
 h2 {
-    @apply text-4xl
+    @apply xl:text-4xl lg:text-3xl text-2xl
 }
 
 h3 {
-    @apply text-2xl
+    @apply xl:text-2xl lg:text-xl text-lg
 }
 
 h4 {
-    @apply text-xl
+    @apply xl:text-xl lg:text-base text-sm
 }
 
 p {
-    @apply text-base
+    @apply xl:text-base lg:text-sm text-xs
 }
 
 .page-center {

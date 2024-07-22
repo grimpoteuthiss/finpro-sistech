@@ -7,7 +7,8 @@ type HeroProps = {
 function Hero(){
     return(
         <header className="py-10">
-            <div className="flex flex-col gap-8 page-center">
+            <div className="flex flex-col xl:gap-8 gap-5 page-center
+                text-center items-center lg:items-start lg:text-start">
                 <div className="flex flex-col">
                     <h1>Your One Stop</h1>
                     <h1>
@@ -27,7 +28,9 @@ function Hero(){
                         imageUrl="/images/material-symbols_arrow-forward-rounded.svg"
                         width={20}
                         height={20}
-                        className="text-lg bg-primary rounded-full bg-primary flex flex-row items-center justify-center py-4 px-9 gap-[10px] text-center text-xl text-white"
+                        className="bg-primary rounded-full bg-primary flex flex-row items-center justify-center py-4 px-9 gap-[10px] text-center text-white
+                        xl:text-xl lg:text-lg text-sm
+                        "
                     >
                         Get Started
                     </Button>

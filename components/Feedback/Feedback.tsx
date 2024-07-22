@@ -4,7 +4,7 @@ function Feedback() {
     return (
         <section className="py-10">
             <div className="flex flex-col page-center">
-                <div className="flex flex-col gap-4 px-8">
+                <div className="flex flex-col xl:gap-4 gap-2 px-8">
                     <h2 className="font-semibold">
                         <span>Student </span>
                         <span className="text-primary leading-7">Feedback</span>

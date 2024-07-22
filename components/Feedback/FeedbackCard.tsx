@@ -22,7 +22,7 @@ function FeedbackCard({
                             imageUrl={imageUrl}
                             width={70}
                             height={70}
-                            className="h-[70px] w-[70px]"
+                            className="xl:h-[70px] xl:w-[70px] h-[60px] w-[60px]"
                         />
                         <div>
                             <h3 className="font-bold">{name}</h3>
@@ -37,7 +37,9 @@ function FeedbackCard({
                     />
                 </div>
                 <div>
-                    {desc}
+                    <p>
+                        {desc}
+                    </p>
                 </div>
             </article>
         )
