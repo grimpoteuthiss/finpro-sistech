@@ -24,7 +24,7 @@ function Hero(){
                 </div>
                 <div className="">
                     <Button
-                        href="/bisa"
+                        href="/course/0"
                         imageUrl="/Images/material-symbols_arrow-forward-rounded.svg"
                         width={20}
                         height={20}

@@ -51,7 +51,7 @@ const CoursesList: React.FC = () => {
   const router = useRouter();
 
   return (
-    <div onClick={() => router.push("/course/1")} className="p-6 bg-primary rounded-lg shadow-md mb-16">
+    <div onClick={() => router.push("/course/1")} id="courses" className="hover:cursor-pointer p-6 bg-primary rounded-lg shadow-md mb-16">
       <div className="flex items-center mb-4">
         <h2 className="text-xl font-bold flex-1">Let&apos;s Start Learning!</h2>
       </div>

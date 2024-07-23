@@ -35,7 +35,7 @@ const CountdownTimer: FC<CountdownProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="flex items-center justify-center w-full gap-1.5 count-down-main">
+    <div id="offers" className="flex items-center justify-center w-full gap-1.5 count-down-main">
       {["days", "hours", "minutes", "seconds"].map((unit, index) => (
         <div key={unit} className="flex items-center gap-1.5">
           <div className="rounded-xl bg-red-600 py-1 min-w-[60px] flex items-center justify-center flex-col gap-1 aspect-square px-1">
