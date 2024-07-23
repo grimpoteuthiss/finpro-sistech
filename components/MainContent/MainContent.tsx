@@ -27,7 +27,7 @@ function MainContent({
       </div>
       <div className="flex justify-end gap-6">
         <Button
-          imageUrl="/images/volume.svg"
+          imageUrl="/Images/volume.svg"
           width={24}
           height={24}
           className="bg-[#34374a] rounded-full  flex flex-row items-center justify-center py-4 px-5 gap-[10px] text-center text-white

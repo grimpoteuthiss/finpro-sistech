@@ -28,9 +28,9 @@ function Footer() {
     ]
 
     const sosmedItems: SosmedItem[] = [
-        { imageUrl: "/images/twitter.svg", href: "/"},
-        { imageUrl: "/images/facebook.svg", href: "/"},
-        { imageUrl: "/images/website.svg", href: "/"},
+        { imageUrl: "/Images/twitter.svg", href: "/"},
+        { imageUrl: "/Images/facebook.svg", href: "/"},
+        { imageUrl: "/Images/website.svg", href: "/"},
     ]
 
     return (

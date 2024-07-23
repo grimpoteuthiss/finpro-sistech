@@ -1,4 +1,6 @@
 // components/SpecialOffers/CoursesList.tsx
+
+import { useRouter } from "next/router";
 import React from "react";
 
 type Course = {
@@ -16,7 +18,7 @@ const courses: Course[] = [
     title: "English",
     description: "Learn grammar and vocabulary with our English courses",
     price: "Rp300.000",
-    imageUrl: "/images/english-offer.jpg",
+    imageUrl: "/Images/english-offer.jpg",
     category: "SMA",
   },
   {
@@ -24,7 +26,7 @@ const courses: Course[] = [
     title: "History",
     description: "Broaden your knowledge with our History courses",
     price: "Rp350.000",
-    imageUrl: "/images/history-offer.jpg",
+    imageUrl: "/Images/history-offer.jpg",
     category: "SMP",
   },
   {
@@ -32,7 +34,7 @@ const courses: Course[] = [
     title: "Math",
     description: "Improve your math skills with our Math courses",
     price: "Rp300.000",
-    imageUrl: "/images/math-offer.webp",
+    imageUrl: "/Images/math-offer.webp",
     category: "SMP",
   },
   {
@@ -40,16 +42,18 @@ const courses: Course[] = [
     title: "Science",
     description: "Amplify your knowledge with our Science courses",
     price: "Rp500.000",
-    imageUrl: "/images/science-offer.webp",
+    imageUrl: "/Images/science-offer.webp",
     category: "SD",
   },
 ];
 
 const CoursesList: React.FC = () => {
+  const router = useRouter();
+
   return (
-    <div className="p-6 bg-primary rounded-lg shadow-md mb-16">
+    <div onClick={() => router.push("/course/1")} className="p-6 bg-primary rounded-lg shadow-md mb-16">
       <div className="flex items-center mb-4">
-        <h2 className="text-xl font-bold flex-1">Let's Start Learning!</h2>
+        <h2 className="text-xl font-bold flex-1">Let&apos;s Start Learning!</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {courses.map((course) => (

@@ -34,7 +34,7 @@ function FeedbackCard({
                         width={25}
                         height={21}
                         alt="decorative-image"
-                        src="/images/quote.svg"
+                        src="/Images/quote.svg"
                     />
                 </div>
                 <div>

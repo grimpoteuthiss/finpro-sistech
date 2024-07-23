@@ -25,7 +25,7 @@ function Hero(){
                 <div className="">
                     <Button
                         href="/bisa"
-                        imageUrl="/images/material-symbols_arrow-forward-rounded.svg"
+                        imageUrl="/Images/material-symbols_arrow-forward-rounded.svg"
                         width={20}
                         height={20}
                         className="bg-primary rounded-full bg-primary flex flex-row items-center justify-center py-4 px-9 gap-[10px] text-center text-white

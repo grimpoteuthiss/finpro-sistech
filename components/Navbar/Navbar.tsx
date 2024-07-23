@@ -9,7 +9,7 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo Section */}
           <div className="flex-shrink-0">
-            <Logo imageUrl={"/images/logo.svg"} height={50} width={192}/>
+            <Logo imageUrl={"/Images/logo.svg"} height={50} width={192}/>
           </div>
 
           {/* Navigation Links */}

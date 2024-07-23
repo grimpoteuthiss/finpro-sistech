@@ -19,7 +19,7 @@ const courses: Course[] = [
     description: "Learn grammar and vocabulary with our English courses",
     originalPrice: "Rp150.000",
     discountedPrice: "Rp75.000",
-    imageUrl: "/images/english-offer.jpg",
+    imageUrl: "/Images/english-offer.jpg",
     category: "SMA",
   },
   {
@@ -28,7 +28,7 @@ const courses: Course[] = [
     description: "Broaden your knowledge with our History courses",
     originalPrice: "Rp200.000",
     discountedPrice: "Rp100.000",
-    imageUrl: "/images/history-offer.jpg",
+    imageUrl: "/Images/history-offer.jpg",
     category: "SMP",
   },
   {
@@ -37,7 +37,7 @@ const courses: Course[] = [
     description: "Improve your math skills with our Math courses",
     originalPrice: "Rp150.000",
     discountedPrice: "Rp75.000",
-    imageUrl: "/images/math-offer.webp",
+    imageUrl: "/Images/math-offer.webp",
     category: "SD",
   },
   {
@@ -46,7 +46,7 @@ const courses: Course[] = [
     description: "Amplify your knowledge with our Science courses",
     originalPrice: "Rp150.000",
     discountedPrice: "Rp75.000",
-    imageUrl: "/images/science-offer.webp",
+    imageUrl: "/Images/science-offer.webp",
     category: "SMA",
   },
 ];

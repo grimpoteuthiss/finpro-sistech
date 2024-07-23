@@ -31,8 +31,8 @@ function NavigationButton({
       <Image
         src={
           variant === "prev"
-            ? "/images/caret-left.svg"
-            : "/images/caret-right.svg"
+            ? "/Images/caret-left.svg"
+            : "/Images/caret-right.svg"
         }
         alt="button-arrow"
         width={width}

@@ -30,7 +30,7 @@ function SubCourseCard({
         `}>
             <div className="flex flex-row gap-2">
                 <Image
-                    src={`${variant === "active" ? "/images/play-white.svg" : "/images/play-black.svg"}`}
+                    src={`${variant === "active" ? "/Images/play-white.svg" : "/Images/play-black.svg"}`}
                     alt={"play"}
                     width={24}
                     height={24}
@@ -41,7 +41,7 @@ function SubCourseCard({
                 </div>
             </div>
             <Image
-                src={"/images/tick.svg"}
+                src={"/Images/tick.svg"}
                 alt={"complete"}
                 width={24}
                 height={24}

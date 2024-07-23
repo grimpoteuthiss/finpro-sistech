@@ -12,13 +12,13 @@ function CourseNavBarLeft({
     <div className="flex items-center gap-3">
         <SubCourseButton 
           onClick={toggleSideBar}
-          imageUrl="/images/burger.svg"
+          imageUrl="/Images/burger.svg"
           alt="burger"
           height={26}
           width={50}
         />
         <Logo
-          imageUrl="/images/logo.svg"
+          imageUrl="/Images/logo.svg"
           height={50}
           width={180}
         />
