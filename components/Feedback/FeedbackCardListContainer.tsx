@@ -31,7 +31,7 @@ const data = [
     },
     {
         "id": 4,
-        "imageUrl": "/Images/kiki.png",
+        "imageUrl": "/Images/kiki.jpg",
         "name": "Kiki",
         "job": "Cybersecurity Analyst",
         "desc": "This cybersecurity bootcamp was intense and incredibly informative. The ethical hacking workshops and capture-the-flag challenges were highlights for me. I feel much more confident in my ability to protect systems now. If possible, I'd suggest adding more content on cloud security, as it's becoming increasingly important in the field."
